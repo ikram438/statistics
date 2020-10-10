@@ -191,8 +191,8 @@ public void inputlower(String strData)
 public void inputfrequency(String strFreq)
 
 {
-
-  for(Double value:stringToList(strFreq))
+  ArrayList<Double> data=stringToList(strFreq);
+  for(Double value:data)
 
   this.frequency.add(value.intValue());
 
